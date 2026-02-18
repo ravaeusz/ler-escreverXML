@@ -1,0 +1,91 @@
+# =========================
+# Delphi / RAD Studio
+# =========================
+
+# Arquivos compilados
+*.dcu
+*.dcp
+*.dcpil
+*.bpl
+*.bpi
+*.apk
+*.aab
+*.drc
+*.map
+*.rsm
+*.tds
+*.identcache
+*.stat
+
+# Executáveis
+*.exe
+*.dll
+*.ocx
+*.so
+*.dylib
+*.app
+
+# Arquivos temporários
+*.~*
+*.tmp
+*.bak
+*.old
+*.rej
+*.log
+
+# Backup do Delphi
+__history/
+*.~pas
+*.~dfm
+*.~dpr
+*.~dpk
+*.~inc
+
+# Pastas de saída
+Win32/
+Win64/
+OSX32/
+OSX64/
+Android/
+Android64/
+iOSDevice32/
+iOSDevice64/
+iOSSimulator/
+Linux64/
+
+# Pastas de build
+Debug/
+Release/
+ModelSupport/
+
+# Arquivos específicos do IDE
+*.local
+*.deployproj.local
+*.groupproj.local
+*.stat
+*.res.dfm
+
+# Arquivos do projeto que NÃO devem ser ignorados:
+# *.dpr
+# *.dfm
+# *.pas
+# *.dproj
+# *.groupproj
+
+# Cache do compilador
+*.hpp
+*.obj
+*.o
+
+# Code Insight / cache
+*.dsk
+*.dof
+*.cfg
+*.otares
+
+# Test Insight
+*.tvsconfig
+
+# Outros
+Thumbs.db
+.DS_Store
