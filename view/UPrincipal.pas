@@ -4,13 +4,15 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, UGerarXml, ULerXml;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, UGerarXml, ULerXml,
+  UBuscarCep;
 
 type
   TFPrincipal = class(TForm)
     Button1: TButton;
     Button2: TButton;
     Label1: TLabel;
+    Button3: TButton;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
   private
@@ -29,15 +31,15 @@ implementation
 
 procedure TFPrincipal.Button1Click(Sender: TObject);
 var
-LFormLer : ULerXml.TForm2;
+LFormCep : UBuscarCep.TForm1;
 begin
-LFormLer := ULerXml.TForm2.Create(nil);
+LFormCep := UBuscarCep.TForm1.Create(nil);
 try
 
-LFormLer.ShowModal
+LFormCep.ShowModal
 
 finally
-LFormLer.Free
+LFormCep.Free
 end;
 
 end;

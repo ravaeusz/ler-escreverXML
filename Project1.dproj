@@ -137,6 +137,12 @@
         </DCCReference>
         <DCCReference Include="service\UXmlService.pas"/>
         <DCCReference Include="UUserModel.pas"/>
+        <DCCReference Include="view\UBuscarCep.pas">
+            <Form>Form1</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="service\UBuscaCepService.pas"/>
+        <DCCReference Include="model\UCepModel.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

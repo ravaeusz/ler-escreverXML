@@ -31,11 +31,20 @@ object FPrincipal: TFPrincipal
   end
   object Button2: TButton
     Left = 0
-    Top = 160
+    Top = 168
     Width = 249
     Height = 25
     Caption = 'GERAR'
     TabOrder = 1
     OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 0
+    Top = 127
+    Width = 249
+    Height = 25
+    Caption = 'LER API'
+    TabOrder = 2
+    OnClick = Button1Click
   end
 end
